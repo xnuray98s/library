@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Library</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@500&family=Raleway&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Digital Library</h1>
+        <p>your own library to log all your books</p>
+
+    </header>
+    <br>
+    <div id="newBooks">
+        <button id="new">new book</button>
+        <form id="form" onsubmit="return false;">
+            <label for="title">Title: </label>
+            <input type="text" name="title" id="title">
+            <label for="author">Author: </label>
+            <input type="text" name="author" id="author">
+            <label for="pages">no.Pages: </label>
+            <input type="text" name="pages" id="pages">
+            <p>Status: </p>
+            <label for="finished">Finished</label>
+            <input type="radio" name="finished" value="finished" id="finished">
+            <label for="unfinished">in Progress</label>
+            <input type="radio" name="unfinished" value="Progress">
+            <input type="submit" value="Submit" id="submit" class="submit">
+        </form>
+    </div>
+    <div id="books">
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
