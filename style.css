@@ -3,6 +3,7 @@
     font-family: 'Quicksand', sans-serif;
     color: #1E1E24;
     text-align: center;
+    max-width: 100%;
 }
 h1{
     font-size: 50px;
